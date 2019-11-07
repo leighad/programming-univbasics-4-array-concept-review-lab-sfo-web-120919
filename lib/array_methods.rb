@@ -32,17 +32,18 @@ def find_max_value(array)
   sorted_array.last
 end
 
-# def find_min_value(array)
-#   # Add your solution here
-#   min =  
-#   array.length.times do |index|
-#     if array[index] < 
-  
-  
-# end
-
 def find_min_value(array)
   # Add your solution here
-  sorted_array = array.sort
-  sorted_array.first
+  min = 0 
+  array.length.times do |index|
+    if array[index] == 0 
+      min = array[index]
+    end
+  end
+ min 
 end
+
+# def find_min_value(array)
+#   sorted_array = array.sort
+#   sorted_array.first
+# end
