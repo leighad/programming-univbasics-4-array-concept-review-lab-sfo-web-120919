@@ -23,6 +23,7 @@ def find_max_value(array)
    if array[index] > max
      max = array[index]
    end
+ end
    max
 end
 
